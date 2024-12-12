@@ -43,7 +43,6 @@ jobs:
       # Шаг 6: Копирование собранного исполняемого файла в папку 'install'
       - name: Copy executable to install folder
         run: |
-          mkdir install
           copy dist\main.exe install\
 
       # Шаг 7: Пушим собранный файл в репозиторий
